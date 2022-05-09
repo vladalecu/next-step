@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.splash{
+    position: absolute;
+width: 550px;
+left: 0px;
+top: 35px;
+}
+
+.hello{
+    position: absolute;
+width: 386px;
+height: 58px;
+left: 15px;
+bottom: 180px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 42px;
+/* or 100% */
+
+text-align: center;
+letter-spacing: 0.41px;
+
+/* rom */
+
+background: linear-gradient(162.55deg, #A66FFF 11.96%, #7B6FFF 103.22%), radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.pha{
+
+position: absolute;
+width: 342px;
+height: 94px;
+left: 35px;
+bottom: 80px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 168%;
+/* or 25px */
+
+text-align: center;
+letter-spacing: 0.41px;
+
+color: #000000;
+}
+
+.next{
+    margin-top: 630px;
+    margin-left: 90px;
+    outline: none;
+}
