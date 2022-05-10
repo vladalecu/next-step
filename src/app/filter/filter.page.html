@@ -1,0 +1,41 @@
+<ion-header>
+  <img class="arrow" routerLink="/events" routerDirection="back" src="assets/arrow_color.svg">
+  <img class="logo" src="./assets/logo.svg" />
+
+</ion-header>
+&nbsp;
+
+<ion-content fullscreen>
+  <ion-list>
+  
+    <ion-item>
+      <ion-label>Type of Event</ion-label>
+      <ion-select value="notifications" interface="action-sheet">
+        <ion-select-option value="enable">In-person</ion-select-option>
+        <ion-select-option value="mute">Online</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Distance</ion-label>
+      <ion-select value="notifications" interface="action-sheet">
+        <ion-select-option value="enable">Within 5 miles</ion-select-option>
+        <ion-select-option value="mute">Within 10 miles</ion-select-option>
+        <ion-select-option value="mute_week">Within 25 miles</ion-select-option>
+        <ion-select-option value="mute_year">Within 50 miles</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Category</ion-label>
+      <ion-select value="notifications" interface="action-sheet">
+        <ion-select-option value="enable">New Groups</ion-select-option>
+        <ion-select-option value="mute">Old groups</ion-select-option>
+        <ion-select-option value="mute_week">Technology</ion-select-option>
+        <ion-select-option value="mute_year">Science</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    
+  </ion-list>
+</ion-content>

@@ -63,8 +63,14 @@ color: #000000;
     outline: none;
 }
 
-@media screen (min-width: 415px) and (max-width: 896px){
+@media only screen and (min-height: 896px) {
+    .main{
+        margin-top: 750px;
+        margin-left: -1px;
+        position: relative;
+    }
+
     .next {
-      margin-top:250px;
+      margin-top: -80px;
     }
   }

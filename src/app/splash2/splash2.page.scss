@@ -60,3 +60,15 @@ color: #000000;
     margin-left: 90px;
     outline: none;
 }
+
+@media only screen and (min-height: 896px) {
+    .main{
+        margin-top: 750px;
+        margin-left: -1px;
+        position: relative;
+    }
+
+    .next {
+      margin-top: -80px;
+    }
+  }
