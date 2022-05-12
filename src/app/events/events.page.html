@@ -1,21 +1,24 @@
 <ion-header class="header">
   <img class="adjust" routerLink="/filter" src="./assets/adjust.svg" />
   <img class="logo" src="./assets/logo.svg" />
-  <img class="profile" src="./assets/profile.svg" />
+  <img class="profile" routerLink="/match" src="./assets/profile.svg" />
 </ion-header>
 &nbsp;&nbsp;
 <ion-content>
   &nbsp;
-  <ion-card>
+  <ion-card >
     <img src="./assets/withyou.png" />
     <ion-card-header>
       <ion-card-subtitle>Event Type: Class</ion-card-subtitle>
-      <ion-card-title>Business Agility and Innovation IC Agile Certified
+      <ion-card-title >Business Agility and Innovation IC Agile Certified
       </ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      This is an ICAgile accredited course, with end to end virtual learning supported by 4 virtual classrooms (10 total hours of classroom).
+      This is an ICAgile accredited course, with end to end virtual learning supported by 4 virtual classrooms.
+      &nbsp;&nbsp;
+      <ion-button expand="block" routerLink="/filter">More details</ion-button>
     </ion-card-content>
+    
   </ion-card>
   <ion-card>
     <img src="./assets/fire.jpeg" />
@@ -39,3 +42,4 @@
     </ion-card-content>
   </ion-card>
 </ion-content>
+

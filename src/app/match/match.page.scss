@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600;700&family=DM+Sans:ital,wght@0,400;0,700;1,500&family=Poppins:wght@600;700&display=swap');
+ion-content{
+
+    --ion-background-color: linear-gradient(162.55deg, #A66FFF 11.96%, #7B6FFF 103.22%), radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo-white{
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+.matched{
+    position: relative;
+
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+margin-left:10px;
+margin-top: 150px;
+/* or 60% */
+
+text-align: center;
+letter-spacing: -0.165px;
+
+color: #FFFFFF;
+}
+
+.profiles{
+position: relative;
+margin-left: 84px;
+margin-top: 45px;
+}
+
+.partner{
+position: relative;
+margin-left: 76px;
+margin-top: 28px;
+}
+
+.conv{
+    margin-left: 68px;
+margin-top: 40px;
+outline: none;
+}
+
+@media only screen and (max-height: 736px) {
+    .matched{
+        margin-top: 80px;
+    }
+
+    .next {
+      margin-top: -80px;
+    }
+  }

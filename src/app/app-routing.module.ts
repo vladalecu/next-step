@@ -28,6 +28,14 @@ const routes: Routes = [
     path: 'filter',
     loadChildren: () => import('./filter/filter.module').then( m => m.FilterPageModule)
   },
+  {
+    path: 'match',
+    loadChildren: () => import('./match/match.module').then( m => m.MatchPageModule)
+  },
+  {
+    path: 'meet',
+    loadChildren: () => import('./meet/meet.module').then( m => m.MeetPageModule)
+  },
   
 ];
 @NgModule({
